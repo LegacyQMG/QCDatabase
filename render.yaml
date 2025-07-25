@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: qc-database
-    env: python
+    name: gpt-doc-assistant
+    runtime: python  # ✅ This tells Render to use a Python environment
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run app.py --server.port $PORT --server.enableCORS false
