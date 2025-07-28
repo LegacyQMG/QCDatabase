@@ -1,1 +1,1 @@
-langchainlangchain-openaichromadbdoclingopenaitiktokenstreamlit 
+streamlitlangchainlangchain-openaichromadbdoclingopenaitiktoken 
